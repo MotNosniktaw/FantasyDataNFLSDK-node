@@ -1,14 +1,14 @@
-# FantasyDataNFLSDK-node
+# sportsdataio-nfl
 
 This is a wrapper client around the SportsData.io NFL REST API. You will need to register for a data subscription (https://sportsdata.io/developers/api-documentation/nfl)
 
 ## Set up
 
-`yarn add fantasydatanflsdk-node`
+`yarn add sportsdataio-nfl`
 
 Pass your api key
 
-`const client = require("fantasydatanflsdk-node")(API_KEY)`
+`const client = require("sportsdataio-nfl")(API_KEY)`
 
 ## Access client methods
 
